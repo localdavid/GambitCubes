@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="">
+<head>
+  <meta charset="utf-8">
+	<title>Cubes</title>
+	<link rel="stylesheet" href="css/stylesheet.css" title="" type="text/css" media="screen" charset="utf-8">
+
+</head>
+<body>
+	<ul id="dylay">
+		<li style="width: 10%; height: 20px;" class="voyelle"  data-foo="5">A</li>
+		<li style="width: 10%; height: 40px;" class="consonne" data-foo="6">B</li>
+		<li style="width: 10%; height: 40px;" class="consonne" data-foo="3">C</li>
+		<li style="width: 10%; height: 20px;" class="consonne" data-foo="2">D</li>
+		<li style="width: 10%; height: 60px;" class="voyelle"  data-foo="4">E</li>
+		<li style="width: 10%; height: 60px;" class="consonne" data-foo="1">F</li>
+		<li style="width: 10%; height: 20px;" class="consonne" data-foo="7">G</li>
+	</ul>
+	
+	<ul id="filters">
+		<li><a href="#" data-filter="*">all</a></li>
+		<li><a href="#" data-filter=".voyelle">voyelle</a></li>
+		<li><a href="#" data-filter=".consonne">consonne</a></li>
+	</ul>
+	
+	<ul id="sorts">
+		<li><a href="#">text</a></li>
+		<li><a href="#" data-sort-by="foo">data-foo</a></li>
+		<li><a href="#" data-sort-way="desc">text desc</a></li>
+		<li><a href="#" data-sort-by="foo" data-sort-way="desc">data-foo desc</a></li>
+	</ul>
+
+	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="js/dylay.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>
